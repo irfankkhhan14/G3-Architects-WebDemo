@@ -372,6 +372,7 @@ footer {
 
     .main-cont-sec{
         display: grid;
+        grid-row: none;
     }
     .left-side{
         display: grid;
