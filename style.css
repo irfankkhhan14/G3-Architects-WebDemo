@@ -300,7 +300,7 @@ footer {
     .nav-button {
         display: grid;
         flex-direction: column;
-        gap: 4px;
+        gap: 6px;
     }
 
     .button-primary {
@@ -333,7 +333,7 @@ footer {
     }
 
     .header-nav-bar {
-        gap: 30px;
+        justify-content: space-between;
     }
 
     .header-section-title {
@@ -418,7 +418,7 @@ footer {
 
     .year-button {
         position: relative;
-        padding: -3px 100% 3px 0px;
+        padding: -3px 100px 3px 100%;
     }
 
     /* Responsive Facts Section Style */
