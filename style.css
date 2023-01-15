@@ -288,11 +288,11 @@ footer {
 
 
 
-/* Responsive Mobile Device Style */
+/* Responsive Style for Mobile Device */
 
 @media screen and (max-width: 576px) {
 
-    /* Responsive Common Style */
+    /* Responsive Style */
 
     .button-primary {
         width: 150px;
@@ -311,7 +311,7 @@ footer {
         gap: 20px;
         background-color: #FFF4E7;
         flex-direction: column;
-        padding: 20px 40px 20px 0;
+        padding: 20px 2px 20px 0;
         align-items: center;
         margin-right: 0;
     }
@@ -379,15 +379,15 @@ footer {
 
     .right-image img {
         position: relative;
-        height: 170px;
-        width: 150px;
+        height: 400px;
+        width: 350px;
         margin-top: 0;
     }
 
     .year-button {
         position: absolute;
         left: 98px;
-        top: 7000px;
+        margin-top: 1px;
 
     }
 
