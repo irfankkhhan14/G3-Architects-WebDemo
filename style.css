@@ -373,6 +373,12 @@ footer {
     .main-cont-sec{
         display: grid;
     }
+    .left-side{
+        display: grid;
+    }
+    .lovenjoy-cont{
+        display: grid;
+    }
     .main-cont {
         margin: 50px 20px;
         flex-direction: column;
@@ -441,7 +447,6 @@ footer {
 
     .sponsors-logo img {
         width: 200px;
-        filter: grayscale(100%);
     }
 
     /* Footer Style */
