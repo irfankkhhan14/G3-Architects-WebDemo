@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Style of Header Section*/
+.header{
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-nav{
+    width: 80%;
+}
+
+.g3{
+    /* -- header logo -- */
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.header-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-button{
+    display: flex;
+    list-style: none;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+.button .button-name{
+    margin-right: 40px;
+}
+
+.header-section{
+    text-align: center;
+}
+
+.header-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    padding-top: 80px;
+}
+
+.header-description{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.button-primary{
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-banner img{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+/*Styles of main section*/
+
+.features-section{
+    display: flex;
+    justify-content: center;
+}
+.main-sec{
+    width: 76%;
+}
+
+.features-cont{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.team-images img{
+    width: 240px;
+    height: 240px;
+}
+
+.feature-title{
+    font-size: 45px;
+    font-weight: 500;
+    color: #131313;
+}
+.ql-color{
+    color: #727272;
+}
+.f-color{
+    color: #FF900E;
+}
+
+.feature-desc{
+    color: #727272;
+    padding: 24px 0;
+}
+
+/*main-container-section style*/
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.main-cont-sec{
+    width: 80%;
+}
+
+.lovenjoy-cont{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 120px;
+}
+
+.left-side{
+    padding: 20px 0;
+}
+
+.right-image img{
+    width: 100%;
+}
+
+.lovenjoy-title{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
+
+.lovenjoy-desc{
+    padding: 20px 0;
+}
+
+.sub-title-box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.left-box{
+    padding-top: 16px;
+}
+
+.love-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.sub-title-desc{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #727272;
+}
+
+
+/*Style of 10+ year Experience Button*/
+
+.year-button{
+    margin-left: 48%;
+    margin-top: -100px;
+}
+
+.experience-button{
+    padding: 45px 42px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+}
+
+.experience-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.experience-description{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*Some Facts Style*/
+
+.facts-section{
+    margin-top: 80px;
+}
+
+.facts-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.winning-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+
+.win-box{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px 60px;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+}
+
+.win-box {
+    background: linear-gradient(#FF900E 0 0) var(--b, 0) / var(--p, 0) no-repeat;
+    transition: 0.4s, background-position 0s;
+  }
+.win-box:hover {
+    --p: 100%;
+    color: #fff;
+  }
+
+  /*Styles of Our Sponsors*/
+
+.sponsors{
+    text-align: center;
+}
+
+.sponsors-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.description{
+    color: #727272;
+}
+
+.sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 80px;
+    opacity: 75%;
+}
+
+/*Styles of Footer*/
+
+footer{
+    padding: 20px 0;
+    background-color: #FFF4E7;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
