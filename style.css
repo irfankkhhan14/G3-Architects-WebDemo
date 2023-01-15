@@ -273,6 +273,42 @@
     opacity: 67%;
 }
 
+/* Styles of Contact Section */
+.contact {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.contact a{
+    text-decoration: none;
+}
+
+.connect-link {
+    text-align: left;
+}
+
+.contact,
+input,
+textarea {
+    border: 0;
+}
+
+.btn-submit {
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 28px;
+}
+
+
 /*Styles of Footer*/
 
 footer {
@@ -468,6 +504,15 @@ footer {
     .sponsors-logo img {
         width: 200px;
     }
+
+    /* Styles of contact form */
+    .contact{
+        margin: 50px 5px;
+        text-align: center;
+        display: grid;
+        padding: 20px 30px;
+    }
+
 
     /* Footer Style */
 
