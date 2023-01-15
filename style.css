@@ -300,6 +300,7 @@ footer {
     .nav-button {
         display: grid;
         flex-direction: column;
+        gap: 4px;
     }
 
     .button-primary {
@@ -364,8 +365,9 @@ footer {
         align-items: center;
     }
 
-    .features-cont{
+    .features-cont {
         display: grid;
+        flex-direction: column;
     }
 
     .team-images {
@@ -418,7 +420,7 @@ footer {
     /* Responsive Facts Section Style */
 
     .facts-section {
-        margin: 100px 20px;
+        margin: 90px 0px 10px 0px;
     }
 
     .description {
