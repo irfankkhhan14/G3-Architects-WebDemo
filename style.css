@@ -395,10 +395,8 @@ footer {
     }
 
     .year-button {
-        position: absolute;
+        position: relative;
         left: 98px;
-        margin-top: 1px;
-
     }
 
     /* Responsive Facts Section Style */
