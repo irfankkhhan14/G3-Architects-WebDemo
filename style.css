@@ -364,6 +364,10 @@ footer {
         align-items: center;
     }
 
+    .features-cont{
+        display: grid;
+    }
+
     .team-images {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -408,7 +412,7 @@ footer {
 
     .year-button {
         position: relative;
-        right: 190px;
+        padding: -3px 100% 3px 0px;
     }
 
     /* Responsive Facts Section Style */
