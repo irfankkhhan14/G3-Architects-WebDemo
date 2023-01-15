@@ -297,12 +297,12 @@ footer {
 
     .button-primary {
         width: 150px;
-        height: 54px;
+        height: 65px;
         background-color: #FF900E;
         border: 0;
         border-radius: 8px;
-        font-weight: 500;
-        font-size: 18px;
+        font-weight: 470;
+        font-size: 16px;
         color: #FFFFFF;
     }
 
@@ -400,7 +400,7 @@ footer {
 
     .year-button {
         position: relative;
-        left: 98px;
+        left: 70px;
     }
 
     /* Responsive Facts Section Style */
