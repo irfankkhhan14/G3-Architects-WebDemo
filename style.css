@@ -297,18 +297,20 @@ footer {
 
     /* Responsive Style */
 
-    .nav-button{
+    .nav-button {
         display: grid;
+        flex-direction: column;
     }
+
     .button-primary {
         width: 150px;
-        height: 65px;
+        height: 80px;
         background-color: #FF900E;
         border: 0;
         border-radius: 8px;
         font-weight: 470;
         font-size: 16px;
-        font-display:center;
+        font-display: center;
         color: #FFFFFF;
     }
 
@@ -406,7 +408,7 @@ footer {
 
     .year-button {
         position: relative;
-        right: 70px;
+        right: 190px;
     }
 
     /* Responsive Facts Section Style */
