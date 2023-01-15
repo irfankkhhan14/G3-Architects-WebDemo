@@ -290,11 +290,16 @@ footer {
 
 
 /* Responsive Style for Mobile Device */
+/* Responsive Style for Mobile Device */
+/* Responsive Style for Mobile Device */
 
 @media screen and (max-width: 576px) {
 
     /* Responsive Style */
 
+    .nav-button{
+        display: grid;
+    }
     .button-primary {
         width: 150px;
         height: 65px;
@@ -303,6 +308,7 @@ footer {
         border-radius: 8px;
         font-weight: 470;
         font-size: 16px;
+        font-display:center;
         color: #FFFFFF;
     }
 
@@ -400,7 +406,7 @@ footer {
 
     .year-button {
         position: relative;
-        left: 70px;
+        right: 70px;
     }
 
     /* Responsive Facts Section Style */
