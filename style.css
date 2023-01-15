@@ -267,9 +267,10 @@
 .sponsors-logo {
     display: flex;
     justify-content: space-between;
+    gap: 4px;
     padding-top: 30px;
     margin-bottom: 80px;
-    opacity: 75%;
+    opacity: 67%;
 }
 
 /*Styles of Footer*/
@@ -370,16 +371,19 @@ footer {
 
     /* Responsive Features Section Style*/
 
-    .main-cont-sec{
+    .main-cont-sec {
         display: grid;
         grid-row: none;
     }
-    .left-side{
+
+    .left-side {
         display: grid;
     }
-    .lovenjoy-cont{
+
+    .lovenjoy-cont {
         display: grid;
     }
+
     .main-cont {
         margin: 50px 20px;
         flex-direction: column;
